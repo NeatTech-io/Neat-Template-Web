@@ -1,0 +1,16 @@
+{
+  "name": "Neat-Template-Web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:NeatTech-io/Neat-Template-Web.git",
+  "author": "Vadim Majsuk <vmajsuk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@neat-tech/configs": "^1.0.5",
+    "typescript": "^4.3.5"
+  }
+}
