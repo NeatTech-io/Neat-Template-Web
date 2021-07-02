@@ -1,0 +1,15 @@
+{
+  "name": "Neat-Template-Web",
+  "entries": {
+    "client": {
+      "port": 8000,
+      "favicon": "./public/client.ico",
+      "path": "./src/client.tsx"
+    },
+    "admin": {
+      "port": 9000,
+      "favicon": "./public/admin.ico",
+      "path": "./src/admin.tsx"
+    }
+  }
+}
