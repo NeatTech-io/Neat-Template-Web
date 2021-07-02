@@ -8,9 +8,12 @@
   "scripts": {
     "lint": "eslint"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^17.0.2"
+  },
   "devDependencies": {
-    "@neat-tech/configs": "^1.0.5",
+    "@neat-tech/configs": "^1.0.6",
+    "@types/react": "^17.0.13",
     "typescript": "^4.3.5"
   }
 }
