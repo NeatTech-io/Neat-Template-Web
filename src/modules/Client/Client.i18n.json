@@ -1,3 +1,5 @@
 {
-  "name": "Hello {name}! You are looking at Client side"
+  "name": "Hello {name}! You are looking at Client side",
+  "showNotification": "Show notification",
+  "notification": "Example notification!"
 }

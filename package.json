@@ -12,6 +12,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@neat-tech/react-logger": "^2.0.0-rc",
+    "@neat-tech/react-notify": "^1.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-intl": "^5.20.4"
