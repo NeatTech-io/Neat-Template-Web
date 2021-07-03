@@ -1,6 +1,7 @@
 import React from "react";
 import { useIntl } from "react-intl";
 
+import { config } from "~/config";
 import { useNotify } from "~/providers/NotificationProvider";
 
 import t from "./Client.i18n.json";
@@ -15,6 +16,8 @@ export const Client: React.FC = () => {
       <div className={s.title}>
         {intl.formatMessage(t.name, { name: "Neat hero" })}
       </div>
+
+      <div>{config.backendUrl}</div>
 
       <button
         onClick={() => notify.success(intl.formatMessage(t.notification))}
