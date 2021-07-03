@@ -5,10 +5,10 @@
     <meta name="referrer" content="origin" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="mobile-web-app-capable" content="yes" />
-    <title>
-      <%= String(projectName).slice(0, 1).toUpperCase() +
-      String(projectName).slice(1) %>
-    </title>
+    <title>Neat Template</title>
+    <script>
+      <%= Object.keys(env).map(key => `window.${key} = '${env[key]}';`).join('') %>
+    </script>
   </head>
 
   <body>

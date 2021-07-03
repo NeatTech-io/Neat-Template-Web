@@ -110,10 +110,10 @@
     intl-messageformat "9.7.1"
     tslib "^2.1.0"
 
-"@neat-tech/bundle-web@^1.0.0-rc14":
-  version "1.0.0-rc14"
-  resolved "https://registry.yarnpkg.com/@neat-tech/bundle-web/-/bundle-web-1.0.0-rc14.tgz#090f94a50a6166c7051e795b9295e59050e0c43b"
-  integrity sha512-xoe0sPbDXkr/sfxK3xpLB1cBlcVJh7K+FTwnVEQpBdmnDtSCM/NX7kKDZTR7fbaiJlQFItVsmomg08XDXnrgHw==
+"@neat-tech/bundle-web@^1.0.1-rc1":
+  version "1.0.1-rc1"
+  resolved "https://registry.yarnpkg.com/@neat-tech/bundle-web/-/bundle-web-1.0.1-rc1.tgz#4b239624fcb2b6e05f93b9cc10b0e3f467f697f6"
+  integrity sha512-dyt4L5Ee31Et5WHRYSebINjrv+R/ZvpXkee8BpiwqjNka6zr3YDzwtWTX4yc1kAlmAm7wmHKi6X2dpCeNme0HA==
   dependencies:
     "@neat-tech/i18n" "^1.0.0-rc2"
     autoprefixer "^10.2.6"
@@ -474,9 +474,9 @@
   integrity sha512-fZQQafSREFyuZcdWFAExYjBiCL7AUCdgsk80iO0q4yihYYdcIiH28CcuPTGFgLOCC8RlW49GSQxdHwZP+I7CNg==
 
 "@types/node@*":
-  version "15.14.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.14.0.tgz#74dbf254fb375551a9d2a71faf6b9dbc2178dc53"
-  integrity sha512-um/+/ip3QZmwLfIkWZSNtQIJNVAqrJ92OkLMeuZrjZMTAJniI7fh8N8OICyDhAJ2mzgk/fmYFo72jRr5HyZ1EQ==
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.0.0.tgz#067a6c49dc7a5c2412a505628e26902ae967bf6f"
+  integrity sha512-TmCW5HoZ2o2/z2EYi109jLqIaPIi9y/lc2LmDCWzuCi35bcaQ+OtUh6nwBiFK7SOu25FAU5+YKdqFZUwtqGSdg==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -1841,9 +1841,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.723:
-  version "1.3.765"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.765.tgz#36fa0ef7a81048bb487bfe3d297100967e2b8db2"
-  integrity sha512-4NhcsfZYlr1x4FehYkK+R9CNNTOZ8vLcIu8Y1uWehxYp5r/jlCGAfBqChIubEfdtX+rBQpXx4yJuX/dzILH/nw==
+  version "1.3.766"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.766.tgz#2fd14a4e54f77665872f4e23fcf4968e83638220"
+  integrity sha512-u2quJ862q9reRKh/je3GXis3w38+RoXH1J9N3XjtsS6NzmUAosNsyZgUVFZPN/ZlJ3v6T0rTyZR3q/J5c6Sy5w==
 
 emoji-regex@^7.0.1:
   version "7.0.3"

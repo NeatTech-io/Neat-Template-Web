@@ -1,0 +1,24 @@
+server_names_hash_bucket_size  128;
+
+server {
+    listen 80;
+    server_name client.${HOST};
+    root /usr/share/nginx/html;
+    gzip on;
+    gzip_types text/plain application/xml;
+
+    location / {
+      try_files $$uri /client.html;
+    }
+}
+
+server {
+    server_name admin.${HOST};
+    root /usr/share/nginx/html;
+    gzip on;
+    gzip_types text/plain application/xml;
+
+    location / {
+      try_files $$uri /admin.html;
+    }
+}
