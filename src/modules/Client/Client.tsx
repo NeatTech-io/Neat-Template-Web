@@ -16,7 +16,9 @@ export const Client: React.FC = () => {
         {intl.formatMessage(t.name, { name: "Neat hero" })}
       </div>
 
-      <button onClick={() => notify.success(t.notification)}>
+      <button
+        onClick={() => notify.success(intl.formatMessage(t.notification))}
+      >
         {intl.formatMessage(t.showNotification)}
       </button>
     </div>

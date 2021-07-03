@@ -156,10 +156,10 @@
     glob "^7.1.7"
     react-intl "^5.20.4"
 
-"@neat-tech/react-logger@^2.0.0-rc":
-  version "2.0.0-rc"
-  resolved "https://registry.yarnpkg.com/@neat-tech/react-logger/-/react-logger-2.0.0-rc.tgz#99749823189a729ac646a7f17beb0eb1b53a21a7"
-  integrity sha512-xNCmw5yzh4h1fxSCbFZWnhIJRopLNO/LhEinI8eApP2txClt8S+mhDVLNUXyFwtsKNCJe5FrWqoxaFauTsYgEg==
+"@neat-tech/react-logger@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@neat-tech/react-logger/-/react-logger-2.0.0.tgz#747739f5ab4b97c97f625838f1017dda503e8b6b"
+  integrity sha512-+nA3L4f6b1pefCLuMCIAvB4jarUq8OLXc+5DbPxedr6Ig9SXGosd7+mBosFBh4GJJ+zxLkd+qezMETwSfiyynQ==
   dependencies:
     "@sentry/react" "^6.8.0"
     "@sentry/react-native" "^2.6.0"

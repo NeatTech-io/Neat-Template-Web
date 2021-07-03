@@ -11,7 +11,9 @@ export const NotificationsProvider: React.FC = ({ children }) => {
         err instanceof Error ? err.message : defaultMsg ?? ""
       }
       logger={logger.log}
-      renderItem={({ state }) => state.visible && <div>{state.message}</div>}
+      renderItem={({ state }) =>
+        state.visible && <div>{state.message?.text}</div>
+      }
     >
       {children}
     </BaseNotificationsProvider>
